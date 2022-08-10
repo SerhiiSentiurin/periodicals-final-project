@@ -1,0 +1,39 @@
+databaseChangeLog:
+  - changeSet:
+      id: 3
+      author: Serhii_Sentiurin
+      changes:
+        - createTable:
+            tableName: reader
+            columns:
+              - column:
+                  name: id
+                  type: BIGINT
+                  constraints:
+                    primaryKey:  true
+                    nullable:  false
+              - column:
+                  name: account_id
+                  type: BIGINT
+                  constraints:
+                    nullable: false
+              - column:
+                  name: lock
+                  type: BOOLEAN
+                  defaultValue: false
+                  constraints:
+                    nullable: false
+        - addForeignKeyConstraint:
+            baseColumnNames: id
+            baseTableName: reader
+            constraintName: fk_user_id
+            onDelete: CASCADE
+            referencedColumnNames: id
+            referencedTableName: user
+        - addForeignKeyConstraint:
+            baseColumnNames: account_id
+            baseTableName: reader
+            constraintName: fk_account_id
+            onDelete: CASCADE
+            referencedColumnNames: id
+            referencedTableName: account

@@ -1,0 +1,61 @@
+databaseChangeLog:
+  - changeSet:
+      id: 2
+      author: Serhii_Sentiurin
+      changes:
+        - createTable:
+            tableName: periodical
+            columns:
+              - column:
+                  name: id
+                  type: BIGINT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey:  true
+                    nullable:  false
+              - column:
+                  name: name
+                  type: VARCHAR(60)
+                  constraints:
+                    nullable: false
+                    unique: true
+              - column:
+                  name: topic
+                  type: VARCHAR(60)
+                  constraints:
+                    nullable: false
+                    unique: false
+              - column:
+                  name: cost
+                  type: DOUBLE
+                  constraints:
+                    nullable: false
+                    unique: false
+              - column:
+                  name: description
+                  type: VARCHAR(600)
+                  constraints:
+                    nullable: false
+                    unique: false
+              - column:
+                  name: isDeleted
+                  type: BOOLEAN
+                  defaultValue: false
+                  constraints:
+                    nullable: false
+        - createTable:
+            tableName: account
+            columns:
+              - column:
+                  name: id
+                  type: BIGINT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: amount
+                  type: DECIMAL(19,2)
+                  defaultValue: 0
+                  constraints:
+                    nullable: false

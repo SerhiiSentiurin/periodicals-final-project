@@ -1,0 +1,181 @@
+databaseChangeLog:
+  - changeSet:
+      id: 6
+      author: Serhii_Sentiurin
+      changes:
+        - insert:
+            tableName: periodical
+            columns:
+              - column:
+                  name: id
+                  value: 1
+              - column:
+                  name: name
+                  value: Football Is Eweryehere
+              - column:
+                  name: topic
+                  value: sport
+              - column:
+                  name: cost
+                  value: 10.99
+              - column:
+                  name: description
+                  value: Football Is Everywhere magazine was created with the intention to honour the football communities and their efforts, around the world. Each issue focuses on telling the untold stories of people that live and breathe football.
+        - insert:
+            tableName: periodical
+            columns:
+              - column:
+                  name: id
+                  value: 2
+              - column:
+                  name: name
+                  value: Football Weekends
+              - column:
+                  name: topic
+                  value: sport
+              - column:
+                  name: cost
+                  value: 15.99
+              - column:
+                  name: description
+                  value: It offers honest infromative reviews and features of interest to the tens of thousands of people who love travelling to watch the game – and the many more who would like to!
+                          Football Weekends aim is to share experiences of fascinating cities and super stadiums – and give knowledge to provide an unforgettable, hassle-free trip.
+                          Football Weekends cuts straight to the all important information – how to get there, the sights to see, the best bars plus a matchday stadium guide. From Barcelona to Berlin, Dortmund to Debrecen, it will cover them all through reports, photos and maps.
+        - insert:
+            tableName: periodical
+            columns:
+              - column:
+                  name: id
+                  value: 3
+              - column:
+                  name: name
+                  value: Beckett Basketball
+              - column:
+                  name: topic
+                  value: sport
+              - column:
+                  name: cost
+                  value: 21.99
+              - column:
+                  name: description
+                  value: Beckett Basketball provides history of the greatest players of the game while also giving you all the history of their Basketball cards.
+                          It provides all the trends, stats and pricing of your favourite Basketball cards from as far back as the 1970s.
+                          A must have necessity for any Basketball card collector out there.
+        - insert:
+            tableName: periodical
+            columns:
+              - column:
+                  name: id
+                  value: 4
+              - column:
+                  name: name
+                  value: Hackspace
+              - column:
+                  name: topic
+                  value: technology
+              - column:
+                  name: cost
+                  value: 49.99
+              - column:
+                  name: description
+                  value: Hackspace is a maker’s magazine for those who love techy projects.
+                          If you are interested in Arduino, RaspberryPi, 3D printing, and more, you will love this magazine.
+                          Inside you will find examples of projects from people in the maker community. These serve as fantastic inspiration for your own projects.
+                          They also have cool guides that will help you make and code projects of your own at home.
+                          Inside each issue you will also find recommendations and reviews on tools and more that people use to make things.
+        - insert:
+            tableName: periodical
+            columns:
+              - column:
+                  name: id
+                  value: 5
+              - column:
+                  name: name
+                  value: How it Works
+              - column:
+                  name: topic
+                  value: technology
+              - column:
+                  name: cost
+                  value: 9.99
+              - column:
+                  name: description
+                  value: How it works is the ultimate in informative, yet accessible, scientific light reading. Effortlessly jumping between covering a range of fascinating subjects and answering age-old questions. So, if you've ever wondered how the pyramids were built, how the gravitational pull of the moon affects the ocean tide, or even how an astronaut washes their hair, then How It Works is the magazine you've been looking for.
+        - insert:
+            tableName: periodical
+            columns:
+              - column:
+                  name: id
+                  value: 6
+              - column:
+                  name: name
+                  value: Stuff
+              - column:
+                  name: topic
+                  value: technology
+              - column:
+                  name: cost
+                  value: 8.99
+              - column:
+                  name: description
+                  value: Every issue is rammed to the virtual rafters with the world's coolest kit - smart phones, MP3 players, laptops, cameras, Blu-ray players and much more. If it's cool, new, and gadget-flavoured you can be sure that we're writing about it!
+                          Flick through the 150+ pages in each issue and find great sections like ‘Hot Stuff’ – 20+ pages of the biggest stories from planet tech and our ‘Top 10 of everything’ countdown from TV’s to tablets.
+        - insert:
+            tableName: periodical
+            columns:
+              - column:
+                  name: id
+                  value: 7
+              - column:
+                  name: name
+                  value: Alternatives Economiques
+              - column:
+                  name: topic
+                  value: business
+              - column:
+                  name: cost
+                  value: 199.99
+              - column:
+                  name: description
+                  value: Alternatives Economiques is a French language magazine that gives you monthly updates on economics and business news.
+                          This magazine touches on a large range of economics news as well as the social and political issues and implications surrounding it.
+                          If you want regular, well researched updates on French and global economies from a team of talented writers, Alternatives Economiques is the perfect magazine for you.
+        - insert:
+            tableName: periodical
+            columns:
+              - column:
+                  name: id
+                  value: 8
+              - column:
+                  name: name
+                  value: Bloomberg Businessweek
+              - column:
+                  name: topic
+                  value: business
+              - column:
+                  name: cost
+                  value: 112.01
+              - column:
+                  name: description
+                  value: Bloomberg Businessweek is a leading weekly business news magazine that gives you everything you need to know.
+                          Discover the strategies that the best business leaders are using to transform their companies and improve their businesses.
+                          This weekly magazine gives you all the news you need alongside business insights from the top minds in their fields.
+                          You can use Bloomberg Businessweek to start up in business or take your existing business to the next level and stay prepared for what is to come with advice and predictions from experts.
+        - insert:
+            tableName: periodical
+            columns:
+              - column:
+                  name: id
+                  value: 9
+              - column:
+                  name: name
+                  value: Business Traveller
+              - column:
+                  name: topic
+                  value: business
+              - column:
+                  name: cost
+                  value: 33.50
+              - column:
+                  name: description
+                  value: Each issue of Business Traveller magazine gives an editorial on the latest news from airports, ailines, hotels and car rental. It also reviews travel products, latest gadgets and accessories to help the business traveller in all aspects of their travel.

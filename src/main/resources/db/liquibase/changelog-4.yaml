@@ -1,0 +1,35 @@
+databaseChangeLog:
+  - changeSet:
+      id: 4
+      author: Serhii_Sentiurin
+      changes:
+        - createTable:
+            tableName: periodicals
+            columns:
+              - column:
+                  name: reader_id
+                  type: BIGINT
+                  constraints:
+                    nullable:  false
+              - column:
+                  name: periodical_id
+                  type: BIGINT
+                  constraints:
+                    nullable: false
+        - addForeignKeyConstraint:
+            baseColumnNames: reader_id
+            baseTableName: periodicals
+            constraintName: fk_reader_id
+            onDelete: CASCADE
+            referencedColumnNames: id
+            referencedTableName: reader
+        - addForeignKeyConstraint:
+            baseColumnNames: periodical_id
+            baseTableName: periodicals
+            constraintName: fk_periodical_id
+            onDelete: CASCADE
+            referencedColumnNames: id
+            referencedTableName: periodical
+        -  addPrimaryKey:
+             columnNames:  reader_id, periodical_id
+             tableName:  periodicals
