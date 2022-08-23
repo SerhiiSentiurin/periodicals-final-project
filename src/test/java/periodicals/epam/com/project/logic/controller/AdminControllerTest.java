@@ -14,8 +14,7 @@ import periodicals.epam.com.project.logic.entity.Reader;
 import periodicals.epam.com.project.logic.entity.dto.PeriodicalDTO;
 import periodicals.epam.com.project.logic.services.AdminService;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.when;
@@ -125,15 +124,24 @@ public class AdminControllerTest {
     public void getAllReadersTest(){
         Reader reader1 = Mockito.mock(Reader.class);
         Reader reader2 = Mockito.mock(Reader.class);
-        List<Reader> expectedList = new ArrayList<>();
-        expectedList.add(reader1);
-        expectedList.add(reader2);
-        when(adminService.getAllReaders()).thenReturn(expectedList);
+        Periodical periodical1 = Mockito.mock(Periodical.class);
+        Periodical periodical2 = Mockito.mock(Periodical.class);
+
+        Map<Reader, Periodical> expectedMap = new HashMap<>();
+        expectedMap.put(reader1,periodical1);
+        expectedMap.put(reader2,periodical2);
+
+        List<Reader> expListOfReaders = new LinkedList<>(expectedMap.keySet());
+        List<Periodical> expListOfSubscriptions = new LinkedList<>(expectedMap.values());
+
+
+        when(adminService.getAllReaders()).thenReturn(expectedMap);
 
         ModelAndView modelAndView = adminController.getAllReaders(request);
         assertNotNull(modelAndView);
         assertEquals("/admin/manageReaders.jsp",modelAndView.getView());
-        assertEquals(expectedList,modelAndView.getAttributes().get("readers"));
+        assertEquals(expListOfReaders,modelAndView.getAttributes().get("readers"));
+        assertEquals(expListOfSubscriptions,modelAndView.getAttributes().get("subscriptions"));
         assertFalse(modelAndView.isRedirect());
     }
 

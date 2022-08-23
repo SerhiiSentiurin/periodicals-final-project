@@ -18,6 +18,22 @@ import java.util.*;
 public class AdminDAO {
     private final DataSource dataSource;
 
+//    @SneakyThrows
+//    public List<String> getReadersSubscriptions(Long readerId){
+//        String getSubscriptions = "select name from periodical join periodicals on id=periodicals.periodical_id where periodicals.reader_id = ?";
+//        List<String> subsList = new ArrayList<>();
+//        try (Connection connection = dataSource.getConnection();
+//        PreparedStatement preparedStatement = connection.prepareStatement(getSubscriptions)){
+//            preparedStatement.setLong(1,readerId);
+//            ResultSet resultSet = preparedStatement.executeQuery();
+//            while (resultSet.next()){
+//                String name = resultSet.getString("name");
+//                subsList.add(name);
+//            }
+//        }
+//        return subsList;
+//    }
+
     @SneakyThrows
     public List<Periodical> getAllPeriodicals() {
         String getAllPeriodicals = "SELECT * FROM periodical";
@@ -118,12 +134,12 @@ public class AdminDAO {
     }
 
     @SneakyThrows
-    public List<Reader> getAllReaders() {
-        String getReaders = "SELECT user.login, account.amount, reader.lock, reader.account_id, reader.id FROM user JOIN reader ON user.id = reader.id JOIN account ON reader.account_id = account.id";
-        List<Reader> listOfReaders = new ArrayList<>();
+    public Map<Reader, Periodical> getAllReaders() {
+        String getAll = "select user.id, login, account.amount, reader.lock, reader.account_id, reader.id, periodical.id, periodical.name, periodical.topic, periodical.cost, periodical.description, periodical.isDeleted from user JOIN reader ON user.id = reader.id JOIN account ON reader.account_id = account.id left join periodicals on user.id=periodicals.reader_id left join periodical on periodicals.periodical_id = periodical.id where not user.role = 'ADMIN' order by user.id";
+        Map<Reader, Periodical> map = new LinkedHashMap<>();
         try (Connection connection = dataSource.getConnection();
              Statement statement = connection.createStatement();
-             ResultSet resultSet = statement.executeQuery(getReaders)) {
+             ResultSet resultSet = statement.executeQuery(getAll)) {
             while (resultSet.next()) {
                 String login = resultSet.getString("login");
                 double amount = resultSet.getDouble("amount");
@@ -136,10 +152,23 @@ public class AdminDAO {
                 reader.setLogin(login);
                 reader.setAccount(account);
                 reader.setLock(lock);
-                listOfReaders.add(reader);
+                long periodicalId = resultSet.getLong("periodical.id");
+                String name = resultSet.getString("name");
+                String topic = resultSet.getString("topic");
+                double cost = resultSet.getDouble("cost");
+                String description = resultSet.getString("description");
+                boolean isDeleted = resultSet.getBoolean("isDeleted");
+                Periodical periodical = new Periodical(periodicalId, name, topic, cost, description, isDeleted);
+
+                if (map.isEmpty() || !map.containsKey(reader)) {
+                    map.put(reader, periodical);
+                } else if (map.containsKey(reader)) {
+                    periodical.setName(map.get(reader).getName() + ", " + name);
+                    map.put(reader, periodical);
+                }
             }
         }
-        return listOfReaders;
+        return map;
     }
 
     @SneakyThrows

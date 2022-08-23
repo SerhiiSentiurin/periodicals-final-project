@@ -18,28 +18,33 @@
                     <th><lang:print message = "admin.manageReaders.jsp.table.reader_status"/></th>
                     <th><lang:print message = "admin.manageReaders.jsp.table.lock_reader"/></th>
                     <th><lang:print message = "admin.manageReaders.jsp.table.unlock_reader"/></th>
+                    <th>Users subscriptions</th>
                 </tr>
-                <c:forEach items="${readers}" var="reader">
+                <c:forEach var="i" begin="0" end="${readers.size()-1}">
                 <tr>
-                    <td>${reader.login}</td>
-                    <td>${reader.account.amountOfMoney}</td>
-                        <c:if test="${reader.lock == 'true'}" >
+                    <td>${readers.get(i).login}</td>
+                    <td>${readers.get(i).account.amountOfMoney}</td>
+                        <c:if test="${readers.get(i).lock == 'true'}" >
                             <td><lang:print message = "admin.manageReaders.jsp.table.status.blocked"/></td>
                         </c:if>
-                        <c:if test="${reader.lock == 'false'}" >
+                        <c:if test="${readers.get(i).lock == 'false'}" >
                             <td><lang:print message = "admin.manageReaders.jsp.table.status.not_blocked"/></td>
                         </c:if>
                     <td align="center">
                         <form action = "/app/periodicals/admin/lockReader" method = "POST">
-                            <input type = "hidden" name = "readerId" value = "${reader.id}">
+                            <input type = "hidden" name = "readerId" value = "${readers.get(i).id}">
                             <input type = "submit" value = '<lang:print message = "admin.manageReaders.jsp.table.button.lock"/>'>
                         </form>
                     </td>
                     <td align="center">
                         <form action = "/app/periodicals/admin/unlockReader" method = "POST">
-                            <input type = "hidden" name = "readerId" value = "${reader.id}">
+                            <input type = "hidden" name = "readerId" value = "${readers.get(i).id}">
                             <input type = "submit" value = '<lang:print message = "admin.manageReaders.jsp.table.button.unlock"/>'>
                         </form>
+                    </td>
+                    <td>
+                        ${subscriptions.get(i).name}
+                    </td>
                 </c:forEach>
         </table>
 

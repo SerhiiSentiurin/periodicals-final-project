@@ -2667,3 +2667,1211 @@
 2022-08-10 21:36:06,018 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-4] Try to log in user: admin
 2022-08-10 21:36:06,058 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-4] user: admin was entered
 2022-08-10 21:36:09,371 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-6] start processing request
+2022-08-10 21:40:45,633 INFO p.e.c.p.l.s.UserService [main] Try to log in user: login
+2022-08-10 21:40:45,638 INFO p.e.c.p.l.s.UserService [main] Try to log in user: login
+2022-08-10 21:40:45,639 INFO p.e.c.p.l.s.UserService [main] user: login was entered
+2022-08-10 21:40:45,641 INFO p.e.c.p.l.s.UserService [main] Try to log in user: login
+2022-08-10 21:40:45,641 INFO p.e.c.p.l.s.UserService [main] user: login was entered
+2022-08-10 21:40:45,649 INFO p.e.c.p.l.s.UserService [main] Try to log in user: login
+2022-08-10 21:40:46,980 ERROR p.e.c.p.l.d.ReaderDAO [main] null
+2022-08-10 21:40:48,477 ERROR p.e.c.p.l.d.PrepaymentDAO [main] null
+2022-08-10 21:40:48,494 ERROR p.e.c.p.l.d.PrepaymentDAO [main] reader have not enough money on the account
+2022-08-10 21:40:48,546 ERROR p.e.c.p.l.d.PrepaymentDAO [main] null
+2022-08-10 21:40:48,551 ERROR p.e.c.p.l.d.PrepaymentDAO [main] reader have not enough money on the account
+2022-08-10 21:46:54,948 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-10 21:46:54,953 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-10 21:46:55,362 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName - root
+2022-08-10 21:46:55,363 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword - 12345
+2022-08-10 21:46:59,927 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-10 21:46:59,958 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-10 21:47:00,421 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@4d542218
+2022-08-10 21:47:20,079 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-10 21:47:20,081 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-10 21:47:20,082 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-10 21:47:23,639 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-10 21:47:23,801 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] Try to log in user: admin
+2022-08-10 21:47:23,827 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] user: admin was entered
+2022-08-10 21:47:25,473 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-10 21:47:29,293 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-8] start processing request
+2022-08-10 21:47:34,310 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-1] start processing request
+2022-08-10 21:47:34,310 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session destroyed
+2022-08-10 21:47:34,517 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Session created
+2022-08-10 21:47:34,517 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session locales --> [en, ua]
+2022-08-10 21:47:34,517 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session selected locale --> en
+2022-08-10 21:47:44,406 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-10 21:47:44,415 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-4] Try to log in user: vasya
+2022-08-10 21:47:44,425 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-4] user: vasya was entered
+2022-08-10 21:47:54,594 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-7] start processing request
+2022-08-10 21:48:10,508 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-10] start processing request
+2022-08-10 21:48:13,794 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-10 21:48:20,021 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-6] start processing request
+2022-08-10 21:48:20,021 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-6] Session destroyed
+2022-08-10 21:48:20,091 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-7] Session created
+2022-08-10 21:48:20,092 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-7] Set session locales --> [en, ua]
+2022-08-10 21:48:20,092 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-7] Set session selected locale --> en
+2022-08-10 21:48:22,201 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-8] start processing request
+2022-08-10 22:19:01,660 INFO p.e.c.p.i.w.LocaleSessionListener [Catalina-utility-1] Session destroyed
+2022-08-12 09:41:33,577 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-12 09:41:33,580 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-12 09:41:33,745 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName - root
+2022-08-12 09:41:33,745 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword - 12345
+2022-08-12 09:41:41,479 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-12 09:41:41,504 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-12 09:41:42,187 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@3b3fa4c0
+2022-08-12 09:41:54,005 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-12 09:41:54,008 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-12 09:41:54,008 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-12 09:42:24,497 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-12 09:42:24,591 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] Try to log in user: admin
+2022-08-12 09:42:24,620 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] user: admin was entered
+2022-08-12 09:42:33,290 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-12 09:42:36,345 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-7] start processing request
+2022-08-12 09:42:39,668 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-9] start processing request
+2022-08-12 09:42:39,670 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-9] Session destroyed
+2022-08-12 09:42:39,682 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-10] Session created
+2022-08-12 09:42:39,683 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-10] Set session locales --> [en, ua]
+2022-08-12 09:42:39,683 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-10] Set session selected locale --> en
+2022-08-12 10:04:38,945 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-12 10:04:38,950 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-12 10:04:39,271 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName - root
+2022-08-12 10:04:39,272 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword - 12345
+2022-08-12 10:04:44,673 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-12 10:04:44,718 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-12 10:04:45,327 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@38f0de07
+2022-08-12 10:04:56,723 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-12 10:04:56,724 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-12 10:04:56,725 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-12 10:05:10,780 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-12 10:05:17,616 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-12 10:05:23,495 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-12 10:05:26,309 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-12 10:05:28,751 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-6] start processing request
+2022-08-12 10:05:30,541 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-7] start processing request
+2022-08-12 10:05:32,451 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-8] start processing request
+2022-08-12 10:05:35,432 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-9] start processing request
+2022-08-12 10:05:40,526 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-10] start processing request
+2022-08-12 10:05:44,566 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-1] start processing request
+2022-08-12 10:06:11,265 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-12 10:06:23,718 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-7] start processing request
+2022-08-12 10:06:23,722 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-7] Try to log in user: Oleg
+2022-08-12 10:06:23,726 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-7] user: Oleg was entered
+2022-08-12 10:06:36,607 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-9] start processing request
+2022-08-12 10:06:43,213 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-10] start processing request
+2022-08-12 10:06:43,296 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-1] start processing request
+2022-08-12 10:06:45,294 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-12 10:06:56,583 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-12 10:07:14,180 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-12 10:07:14,393 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-6] start processing request
+2022-08-12 10:07:20,130 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-8] start processing request
+2022-08-12 10:07:53,036 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-9] start processing request
+2022-08-12 10:07:53,236 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-10] start processing request
+2022-08-12 10:08:03,911 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-12 10:08:03,912 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Session destroyed
+2022-08-12 10:08:03,962 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-3] Session created
+2022-08-12 10:08:03,964 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-3] Set session locales --> [en, ua]
+2022-08-12 10:08:03,964 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-3] Set session selected locale --> en
+2022-08-12 10:09:30,427 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-6] start processing request
+2022-08-12 10:09:30,604 ERROR p.e.c.p.l.d.ReaderDAO [http-nio-8080-exec-6] Duplicate entry 'Oleg' for key 'user.login'
+2022-08-12 10:09:30,605 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-6] Set view for handled exception: /error/error.jsp
+2022-08-12 10:09:48,949 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-7] start processing request
+2022-08-12 10:09:49,007 ERROR p.e.c.p.l.d.ReaderDAO [http-nio-8080-exec-7] Duplicate entry 'Oleg' for key 'user.login'
+2022-08-12 10:09:49,008 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-7] Set view for handled exception: /error/error.jsp
+2022-08-12 10:12:08,804 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-10] start processing request
+2022-08-12 10:12:08,804 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-10] Try to log in user: Oleg
+2022-08-12 10:12:08,807 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-10] user: Oleg was entered
+2022-08-12 10:12:10,190 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-12 10:13:25,725 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-6] start processing request
+2022-08-12 10:13:46,142 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-7] start processing request
+2022-08-12 10:13:46,150 ERROR p.e.c.p.l.d.PrepaymentDAO [http-nio-8080-exec-7] reader have not enough money on the account
+2022-08-12 10:13:46,150 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-7] Set view for handled exception: /error/error.jsp
+2022-08-12 10:14:25,530 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-9] start processing request
+2022-08-12 10:14:25,631 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-10] start processing request
+2022-08-12 10:15:11,195 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-12 10:15:11,195 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Session destroyed
+2022-08-12 10:15:11,203 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-3] Session created
+2022-08-12 10:15:11,204 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-3] Set session locales --> [en, ua]
+2022-08-12 10:15:11,204 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-3] Set session selected locale --> en
+2022-08-12 10:15:12,816 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-12 10:15:12,817 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-4] Try to log in user: admin
+2022-08-12 10:15:12,819 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-4] user: admin was entered
+2022-08-12 10:15:21,310 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-6] start processing request
+2022-08-12 10:16:07,269 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-8] start processing request
+2022-08-12 10:16:07,359 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-9] start processing request
+2022-08-12 10:16:10,384 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-10] start processing request
+2022-08-12 10:16:10,473 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-1] start processing request
+2022-08-12 10:16:23,772 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-12 10:16:29,529 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-12 10:22:37,380 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-6] start processing request
+2022-08-12 10:22:37,496 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-7] start processing request
+2022-08-12 10:23:49,553 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-10] start processing request
+2022-08-12 10:23:49,629 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-1] start processing request
+2022-08-12 10:23:53,383 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-12 10:23:53,480 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-12 10:24:08,595 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-4] Session created
+2022-08-12 10:24:08,595 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-4] Set session locales --> [en, ua]
+2022-08-12 10:24:08,595 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-4] Set session selected locale --> en
+2022-08-12 10:24:17,959 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-12 10:24:17,960 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-5] Try to log in user: Oleg
+2022-08-12 10:24:17,965 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-5] user: Oleg was entered
+2022-08-12 10:24:21,394 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-7] start processing request
+2022-08-12 10:24:37,239 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-9] start processing request
+2022-08-12 10:24:37,318 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-10] start processing request
+2022-08-12 10:24:42,616 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-12 10:24:51,891 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-12 10:24:51,994 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-12 10:24:58,045 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-7] start processing request
+2022-08-12 10:25:05,366 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-8] start processing request
+2022-08-12 10:25:05,486 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-9] start processing request
+2022-08-12 10:25:09,699 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-10] start processing request
+2022-08-12 10:25:42,000 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-1] start processing request
+2022-08-12 10:25:42,095 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-12 10:25:46,623 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-12 10:26:05,233 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-12 10:26:26,969 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-6] start processing request
+2022-08-12 10:26:27,074 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-7] start processing request
+2022-08-12 10:26:30,601 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-8] start processing request
+2022-08-12 10:26:41,266 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-9] start processing request
+2022-08-12 10:26:45,109 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-10] start processing request
+2022-08-12 10:26:45,213 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-1] start processing request
+2022-08-12 10:26:48,916 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-12 10:27:02,863 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-12 10:27:21,647 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-6] start processing request
+2022-08-12 10:27:21,767 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-7] start processing request
+2022-08-12 10:27:36,548 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-9] start processing request
+2022-08-12 10:27:48,217 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-1] start processing request
+2022-08-12 10:29:03,978 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-12 10:29:13,334 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-7] start processing request
+2022-08-12 10:29:36,275 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-9] start processing request
+2022-08-12 10:29:36,384 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-10] start processing request
+2022-08-12 10:29:42,920 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-12 10:30:01,576 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-12 10:30:01,576 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-4] Session destroyed
+2022-08-12 10:30:01,584 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-5] Session created
+2022-08-12 10:30:01,584 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-5] Set session locales --> [en, ua]
+2022-08-12 10:30:01,584 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-5] Set session selected locale --> en
+2022-08-12 10:30:08,740 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-6] start processing request
+2022-08-12 10:30:24,582 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-8] start processing request
+2022-08-12 10:30:24,583 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-8] Try to log in user: Oleg
+2022-08-12 10:30:24,585 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-8] user: Oleg was entered
+2022-08-12 10:30:33,101 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-10] start processing request
+2022-08-12 10:31:14,852 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-12 10:31:14,852 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-4] Session destroyed
+2022-08-12 10:31:14,862 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-5] Session created
+2022-08-12 10:31:14,862 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-5] Set session locales --> [en, ua]
+2022-08-12 10:31:14,862 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-5] Set session selected locale --> en
+2022-08-12 10:31:16,845 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-6] start processing request
+2022-08-12 10:34:45,571 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-10] start processing request
+2022-08-12 10:34:48,027 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-1] start processing request
+2022-08-12 10:34:49,340 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-12 10:34:50,156 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-12 10:35:17,782 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-12 10:37:04,358 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-7] start processing request
+2022-08-12 10:37:06,444 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-8] start processing request
+2022-08-12 10:37:07,854 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-9] start processing request
+2022-08-12 10:37:09,070 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-10] start processing request
+2022-08-12 10:37:09,734 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-1] start processing request
+2022-08-12 10:40:22,725 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-12 10:44:17,880 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-9] start processing request
+2022-08-12 10:44:17,880 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-9] Try to log in user: admin
+2022-08-12 10:44:17,883 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-9] user: admin was entered
+2022-08-12 10:44:32,120 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-1] start processing request
+2022-08-12 10:57:46,075 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-12 10:57:51,730 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-6] start processing request
+2022-08-12 11:02:02,139 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-12 11:02:02,144 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-12 11:02:02,348 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName - root
+2022-08-12 11:02:02,349 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword - 12345
+2022-08-12 11:02:06,296 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-12 11:02:06,327 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-12 11:02:06,750 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@27af14bd
+2022-08-12 11:02:22,437 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-12 11:02:22,438 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-12 11:02:22,438 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-12 11:02:27,717 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-12 11:02:27,805 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] Try to log in user: admin
+2022-08-12 11:02:27,812 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] user: admin was entered
+2022-08-12 11:02:29,266 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-12 11:02:40,672 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-6] Session created
+2022-08-12 11:02:40,672 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-6] Set session locales --> [en, ua]
+2022-08-12 11:02:40,672 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-6] Set session selected locale --> en
+2022-08-12 11:02:50,580 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-7] start processing request
+2022-08-12 11:02:50,583 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-7] Try to log in user: Oleg
+2022-08-12 11:02:50,585 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-7] user: Oleg was entered
+2022-08-12 11:02:52,439 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-9] start processing request
+2022-08-12 11:05:33,768 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-12 11:05:33,771 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-12 11:05:34,016 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName - root
+2022-08-12 11:05:34,017 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword - 12345
+2022-08-12 11:05:38,561 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-12 11:05:38,592 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-12 11:05:39,023 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@4d542218
+2022-08-12 11:05:45,404 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-12 11:05:45,405 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-12 11:05:45,405 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-12 11:05:51,335 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-12 11:05:51,418 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] Try to log in user: admin
+2022-08-12 11:05:51,426 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] user: admin was entered
+2022-08-12 11:05:54,415 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-12 11:06:00,784 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-6] Session created
+2022-08-12 11:06:00,784 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-6] Set session locales --> [en, ua]
+2022-08-12 11:06:00,784 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-6] Set session selected locale --> en
+2022-08-12 11:06:09,738 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-7] start processing request
+2022-08-12 11:06:09,740 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-7] Try to log in user: Oleg
+2022-08-12 11:06:09,746 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-7] user: Oleg was entered
+2022-08-12 11:06:11,518 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-9] start processing request
+2022-08-12 11:07:14,163 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-12 11:07:30,866 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-12 11:07:35,599 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-12 11:07:35,859 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-6] start processing request
+2022-08-12 11:07:40,107 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-8] start processing request
+2022-08-12 11:07:46,535 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-10] start processing request
+2022-08-12 11:07:48,832 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-1] start processing request
+2022-08-12 11:07:48,932 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-12 11:07:54,785 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-12 11:33:20,433 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-12 11:33:20,437 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-12 11:33:20,721 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName - root
+2022-08-12 11:33:20,722 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword - 12345
+2022-08-12 11:33:25,607 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-12 11:33:25,649 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-12 11:33:26,204 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@1e1c1634
+2022-08-12 11:33:38,333 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-12 11:33:38,340 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-12 11:33:38,340 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-12 11:34:04,064 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-12 11:34:04,219 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] Try to log in user: admin
+2022-08-12 11:34:04,236 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] user: admin was entered
+2022-08-12 11:34:15,200 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-5] Session created
+2022-08-12 11:34:15,200 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-5] Set session locales --> [en, ua]
+2022-08-12 11:34:15,205 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-5] Set session selected locale --> en
+2022-08-12 11:34:24,032 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-6] start processing request
+2022-08-12 11:34:24,033 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-6] Try to log in user: Oleg
+2022-08-12 11:34:24,046 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-6] user: Oleg was entered
+2022-08-12 11:34:26,048 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-8] start processing request
+2022-08-12 11:34:31,888 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-9] start processing request
+2022-08-12 11:34:34,963 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-1] start processing request
+2022-08-12 11:34:34,965 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-1] Set view for handled exception: /error/internalError.jsp
+2022-08-12 11:34:50,518 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-12 11:34:50,518 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-5] Try to log in user: admin
+2022-08-12 11:34:50,520 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-5] user: admin was entered
+2022-08-12 11:34:52,131 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-7] start processing request
+2022-08-12 11:34:52,132 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-7] Set view for handled exception: /error/internalError.jsp
+2022-08-12 12:04:26,669 INFO p.e.c.p.i.w.LocaleSessionListener [Catalina-utility-2] Session destroyed
+2022-08-12 12:05:26,703 INFO p.e.c.p.i.w.LocaleSessionListener [Catalina-utility-2] Session destroyed
+2022-08-12 18:06:39,017 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-12 18:06:39,021 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-12 18:06:39,191 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName - root
+2022-08-12 18:06:39,191 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword - 12345
+2022-08-12 18:06:42,735 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-12 18:06:42,761 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-12 18:06:43,095 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@66e74d3
+2022-08-17 11:38:48,855 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-17 11:38:48,875 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-17 11:38:49,056 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName - root
+2022-08-17 11:38:49,057 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword - 12345
+2022-08-17 11:38:54,206 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-17 11:38:54,256 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-17 11:38:54,789 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@4ca3e806
+2022-08-17 11:39:07,907 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-17 11:39:07,907 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-17 11:39:07,907 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-17 11:39:16,693 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-17 11:39:16,776 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] Try to log in user: admin
+2022-08-17 11:39:16,918 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] user: admin was entered
+2022-08-17 11:39:19,837 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-17 12:09:56,588 INFO p.e.c.p.i.w.LocaleSessionListener [Catalina-utility-1] Session destroyed
+2022-08-17 20:58:33,808 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-17 20:58:33,812 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-17 20:58:33,976 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName - root
+2022-08-17 20:58:33,976 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword - 12345
+2022-08-17 20:58:37,881 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-17 20:58:37,901 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-17 20:58:38,238 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@66e74d3
+2022-08-17 20:58:47,869 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Session created
+2022-08-17 20:58:47,871 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session locales --> [en, ua]
+2022-08-17 20:58:47,872 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session selected locale --> en
+2022-08-17 20:58:50,171 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-17 20:58:50,241 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] Try to log in user: admin
+2022-08-17 20:58:50,251 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] user: admin was entered
+2022-08-17 20:58:57,935 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-17 20:58:57,945 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] Set view for handled exception: /error/internalError.jsp
+2022-08-17 20:59:06,157 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-8] start processing request
+2022-08-17 20:59:06,157 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-8] Try to log in user: admin
+2022-08-17 20:59:06,157 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-8] user: admin was entered
+2022-08-17 20:59:07,229 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-10] start processing request
+2022-08-17 20:59:09,537 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-1] start processing request
+2022-08-17 20:59:09,537 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-1] Set view for handled exception: /error/internalError.jsp
+2022-08-17 21:00:23,370 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-17 21:00:23,373 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-17 21:00:23,565 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName - root
+2022-08-17 21:00:23,566 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword - 12345
+2022-08-17 21:00:26,818 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-17 21:00:26,848 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-17 21:00:27,166 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@5ea4abef
+2022-08-17 21:00:33,686 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-17 21:00:33,687 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-17 21:00:33,688 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-17 21:00:36,520 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-17 21:00:36,610 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] Try to log in user: admin
+2022-08-17 21:00:36,626 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] user: admin was entered
+2022-08-17 21:00:38,724 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-17 21:00:38,724 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] Set view for handled exception: /error/internalError.jsp
+2022-08-17 21:01:11,801 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-17 21:01:11,806 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-17 21:01:11,999 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName - root
+2022-08-17 21:01:11,999 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword - 12345
+2022-08-17 21:01:16,151 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-17 21:01:16,343 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-17 21:01:16,802 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@ddb59b6
+2022-08-17 21:01:24,097 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Session created
+2022-08-17 21:01:24,105 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session locales --> [en, ua]
+2022-08-17 21:01:24,106 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session selected locale --> en
+2022-08-17 21:01:26,439 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-17 21:01:26,519 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] Try to log in user: admin
+2022-08-17 21:01:26,529 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] user: admin was entered
+2022-08-17 21:01:28,833 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-17 21:01:28,843 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] Set view for handled exception: /error/internalError.jsp
+2022-08-17 21:02:07,087 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-17 21:02:07,096 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-17 21:02:07,270 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName - root
+2022-08-17 21:02:07,270 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword - 12345
+2022-08-17 21:02:12,486 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-17 21:02:13,424 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-17 21:02:14,070 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@60bc259a
+2022-08-17 21:02:23,588 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Session created
+2022-08-17 21:02:23,588 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session locales --> [en, ua]
+2022-08-17 21:02:23,588 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session selected locale --> en
+2022-08-17 21:02:25,664 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-17 21:02:25,909 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] Try to log in user: admin
+2022-08-17 21:02:25,928 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] user: admin was entered
+2022-08-17 21:02:27,126 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-17 21:02:27,126 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] Set view for handled exception: /error/internalError.jsp
+2022-08-17 21:03:12,466 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-17 21:03:12,469 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-17 21:03:12,664 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName - root
+2022-08-17 21:03:12,665 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword - 12345
+2022-08-17 21:03:16,283 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-17 21:03:16,687 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-17 21:03:17,281 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@12e33c7b
+2022-08-17 21:03:21,291 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Session created
+2022-08-17 21:03:21,301 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session locales --> [en, ua]
+2022-08-17 21:03:21,301 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session selected locale --> en
+2022-08-17 21:03:23,037 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-17 21:03:23,289 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] Try to log in user: admin
+2022-08-17 21:03:23,311 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] user: admin was entered
+2022-08-17 21:03:24,501 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-17 21:04:00,987 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] Set view for handled exception: /error/internalError.jsp
+2022-08-17 21:21:57,599 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-17 21:21:57,603 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-17 21:21:57,774 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName - root
+2022-08-17 21:21:57,774 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword - 12345
+2022-08-17 21:22:01,688 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-17 21:22:01,718 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-17 21:22:02,082 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@4ca3e806
+2022-08-17 21:22:06,838 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Session created
+2022-08-17 21:22:06,848 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session locales --> [en, ua]
+2022-08-17 21:22:06,848 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session selected locale --> en
+2022-08-17 21:22:09,022 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-17 21:22:09,117 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] Try to log in user: admin
+2022-08-17 21:22:09,131 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] user: admin was entered
+2022-08-17 21:22:11,410 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-17 21:53:04,639 INFO p.e.c.p.i.w.LocaleSessionListener [Catalina-utility-1] Session destroyed
+2022-08-17 22:12:19,288 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-17 22:12:19,292 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-17 22:12:19,456 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName - root
+2022-08-17 22:12:19,457 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword - 12345
+2022-08-17 22:12:23,998 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-17 22:12:24,038 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-17 22:12:24,410 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@6375af2a
+2022-08-17 22:12:32,420 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-17 22:12:32,430 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-17 22:12:32,430 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-17 22:12:35,106 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-17 22:12:35,186 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] Try to log in user: admin
+2022-08-17 22:12:35,196 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] user: admin was entered
+2022-08-17 22:12:36,688 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-17 22:43:26,118 INFO p.e.c.p.i.w.LocaleSessionListener [Catalina-utility-1] Session destroyed
+2022-08-22 16:39:23,276 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-22 16:39:23,286 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-22 16:39:23,490 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName - root
+2022-08-22 16:39:23,490 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword - 12345
+2022-08-22 16:39:28,718 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-22 16:39:28,738 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-22 16:39:29,775 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@3f7e72a7
+2022-08-22 16:41:37,973 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-22 16:41:37,979 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-22 16:41:38,177 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-22 16:41:38,178 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-22 16:41:42,504 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-22 16:41:42,534 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-22 16:41:42,946 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@644ae4ff
+2022-08-22 16:42:22,922 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Session created
+2022-08-22 16:42:22,923 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session locales --> [en, ua]
+2022-08-22 16:42:22,923 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session selected locale --> en
+2022-08-22 16:42:33,649 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-22 16:42:33,732 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] Try to log in user: admin
+2022-08-22 16:42:33,884 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] user: admin was entered
+2022-08-22 16:42:35,051 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-22 16:43:59,075 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-7] start processing request
+2022-08-22 16:44:09,836 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-8] start processing request
+2022-08-22 16:44:39,790 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-9] start processing request
+2022-08-22 16:45:15,550 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-10] start processing request
+2022-08-22 16:45:22,137 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-1] start processing request
+2022-08-22 16:48:52,829 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-22 16:48:52,832 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-22 16:48:53,034 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-22 16:48:53,034 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-22 16:48:56,502 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-22 16:48:56,522 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-22 16:48:56,814 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@67f07fa1
+2022-08-22 16:49:02,690 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-22 16:49:02,692 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-22 16:49:02,694 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-22 16:49:10,520 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-22 16:49:10,600 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] Try to log in user: admin
+2022-08-22 16:49:10,610 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] user: admin was entered
+2022-08-22 16:49:11,742 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-22 16:49:24,142 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-6] start processing request
+2022-08-22 16:53:14,404 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-22 16:53:14,407 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-22 16:53:14,569 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-22 16:53:14,569 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-22 16:53:18,445 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-22 16:53:18,475 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-22 16:53:18,827 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@67f07fa1
+2022-08-22 16:53:22,635 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-22 16:53:22,635 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-22 16:53:22,635 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-22 16:53:28,323 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-22 16:53:28,419 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] Try to log in user: admin
+2022-08-22 16:53:28,429 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] user: admin was entered
+2022-08-22 16:53:29,537 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-22 16:53:46,037 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-7] start processing request
+2022-08-22 16:53:56,869 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-8] start processing request
+2022-08-22 16:54:09,435 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-9] start processing request
+2022-08-22 16:54:09,695 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-10] start processing request
+2022-08-22 16:54:11,387 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-1] start processing request
+2022-08-22 16:54:22,333 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-22 16:55:34,857 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-22 16:55:35,039 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-6] start processing request
+2022-08-22 16:55:53,226 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-7] start processing request
+2022-08-22 16:55:53,326 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-8] start processing request
+2022-08-22 16:58:03,299 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-22 16:58:03,304 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-22 16:58:03,477 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-22 16:58:03,478 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-22 16:58:07,426 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-22 16:58:07,456 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-22 16:58:07,751 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@4476ac12
+2022-08-22 16:58:10,794 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-22 16:58:10,796 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-22 16:58:10,798 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-22 16:58:16,370 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-22 16:58:16,440 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-4] Try to log in user: admin
+2022-08-22 16:58:16,450 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-4] user: admin was entered
+2022-08-22 16:58:17,952 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-6] start processing request
+2022-08-22 16:59:05,826 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-22 16:59:05,833 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-22 16:59:06,005 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-22 16:59:06,005 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-22 16:59:09,629 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-22 16:59:09,659 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-22 16:59:10,010 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@5ea4abef
+2022-08-22 16:59:13,067 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-22 16:59:13,069 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-22 16:59:13,070 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-22 16:59:19,071 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-22 16:59:19,141 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-4] Try to log in user: admin
+2022-08-22 16:59:19,151 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-4] user: admin was entered
+2022-08-22 16:59:20,335 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-6] start processing request
+2022-08-22 17:01:56,118 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-22 17:01:56,121 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-22 17:01:56,314 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-22 17:01:56,314 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-22 17:02:01,606 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-22 17:02:01,828 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-22 17:02:02,605 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@60bc259a
+2022-08-22 17:02:08,295 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-22 17:02:08,297 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-22 17:02:08,297 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-22 17:02:10,319 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-22 17:02:10,421 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] Try to log in user: admin
+2022-08-22 17:02:10,458 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] user: admin was entered
+2022-08-22 17:02:11,753 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-22 18:38:53,188 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-22 18:38:53,193 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-22 18:38:53,369 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-22 18:38:53,369 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-22 18:38:57,542 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-22 18:38:57,602 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-22 18:38:58,028 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@7b7695f
+2022-08-22 18:39:05,016 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-22 18:39:05,017 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-22 18:39:05,018 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-22 18:39:07,854 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-22 18:39:07,934 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] Try to log in user: admin
+2022-08-22 18:39:07,967 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] user: admin was entered
+2022-08-22 18:39:09,407 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-22 18:49:41,821 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-22 18:49:41,827 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-22 18:49:41,987 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-22 18:49:41,987 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-22 18:49:45,626 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-22 18:49:45,656 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-22 18:49:46,034 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@67f07fa1
+2022-08-22 18:49:52,460 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Session created
+2022-08-22 18:49:52,462 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session locales --> [en, ua]
+2022-08-22 18:49:52,462 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session selected locale --> en
+2022-08-22 18:49:54,922 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-22 18:49:55,014 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] Try to log in user: admin
+2022-08-22 18:49:55,038 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] user: admin was entered
+2022-08-22 18:49:56,550 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-22 18:50:48,025 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-22 18:50:48,030 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-22 18:50:48,239 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-22 18:50:48,239 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-22 18:50:52,461 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-22 18:50:52,499 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-22 18:50:52,987 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@73f83bff
+2022-08-22 18:50:56,633 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Session created
+2022-08-22 18:50:56,644 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session locales --> [en, ua]
+2022-08-22 18:50:56,646 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session selected locale --> en
+2022-08-22 18:50:59,143 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-22 18:50:59,251 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] Try to log in user: admin
+2022-08-22 18:50:59,257 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] user: admin was entered
+2022-08-22 18:51:00,470 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-22 19:26:47,418 INFO p.e.c.p.i.w.LocaleSessionListener [Catalina-utility-2] Session destroyed
+2022-08-22 19:29:23,628 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-22 19:29:23,631 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-22 19:29:23,786 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-22 19:29:23,786 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-22 19:29:28,041 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-22 19:29:28,071 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-22 19:29:28,403 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@1d81dece
+2022-08-22 19:29:53,918 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-22 19:29:53,928 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-22 19:29:53,928 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-22 19:29:56,552 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-22 19:29:56,632 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] Try to log in user: admin
+2022-08-22 19:29:56,662 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] user: admin was entered
+2022-08-22 19:29:57,708 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-22 19:31:10,080 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-22 19:31:10,083 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-22 19:31:10,259 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-22 19:31:10,259 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-22 19:31:13,624 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-22 19:31:13,644 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-22 19:31:13,997 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@33bc7565
+2022-08-22 19:31:19,283 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-22 19:31:19,284 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-22 19:31:19,285 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-22 19:31:21,860 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-22 19:31:21,940 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] Try to log in user: admin
+2022-08-22 19:31:21,950 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] user: admin was entered
+2022-08-22 19:31:22,812 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-22 19:34:03,979 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-22 19:34:03,982 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-22 19:34:04,152 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-22 19:34:04,153 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-22 19:34:07,911 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-22 19:34:07,961 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-22 19:34:08,365 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@131c4ffe
+2022-08-22 19:34:12,195 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-22 19:34:12,195 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-22 19:34:12,195 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-22 19:34:14,747 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-22 19:34:14,842 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] Try to log in user: admin
+2022-08-22 19:34:14,848 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] user: admin was entered
+2022-08-22 19:34:16,071 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-23 15:43:25,551 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-23 15:43:25,554 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-23 15:43:25,735 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-23 15:43:25,735 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-23 15:43:28,849 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-23 15:43:28,879 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-23 15:43:29,228 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@10095d95
+2022-08-23 15:43:35,762 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-23 15:43:35,764 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-23 15:43:35,765 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-23 15:43:38,260 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-4] Session created
+2022-08-23 15:43:38,260 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-4] Set session locales --> [en, ua]
+2022-08-23 15:43:38,260 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-4] Set session selected locale --> en
+2022-08-23 15:43:43,113 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-23 15:43:43,204 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-5] Try to log in user: admin
+2022-08-23 15:43:43,214 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-5] user: admin was entered
+2022-08-23 15:43:44,688 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-7] start processing request
+2022-08-23 15:52:38,253 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-23 15:52:38,256 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-23 15:52:38,420 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-23 15:52:38,420 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-23 15:52:42,832 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-23 15:52:42,862 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-23 15:52:43,244 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@f67053
+2022-08-23 15:52:48,486 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Session created
+2022-08-23 15:52:48,487 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session locales --> [en, ua]
+2022-08-23 15:52:48,487 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session selected locale --> en
+2022-08-23 15:52:51,297 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-23 15:52:51,387 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] Try to log in user: admin
+2022-08-23 15:52:51,398 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] user: admin was entered
+2022-08-23 15:52:52,571 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-23 15:53:47,615 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-23 15:53:47,619 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-23 15:53:47,805 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-23 15:53:47,805 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-23 15:53:51,207 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-23 15:53:51,257 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-23 15:53:51,709 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@2ec969ba
+2022-08-23 15:53:56,567 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-23 15:53:56,568 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-23 15:53:56,569 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-23 15:53:59,547 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-23 15:53:59,656 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] Try to log in user: admin
+2022-08-23 15:53:59,671 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] user: admin was entered
+2022-08-23 15:54:00,909 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-23 16:07:30,293 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-23 16:07:30,296 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-23 16:07:30,463 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-23 16:07:30,463 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-23 16:07:33,969 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-23 16:07:33,999 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-23 16:07:34,332 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@39b704f7
+2022-08-23 16:07:43,624 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Session created
+2022-08-23 16:07:43,625 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session locales --> [en, ua]
+2022-08-23 16:07:43,626 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session selected locale --> en
+2022-08-23 16:07:46,285 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-23 16:07:46,365 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] Try to log in user: admin
+2022-08-23 16:07:46,375 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] user: admin was entered
+2022-08-23 16:07:47,321 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-23 16:13:08,480 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-23 16:13:08,534 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-23 16:13:08,811 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-23 16:13:08,811 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-23 16:13:12,250 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-23 16:13:12,280 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-23 16:13:12,626 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@f67053
+2022-08-23 16:13:16,677 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-23 16:13:16,678 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-23 16:13:16,680 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-23 16:13:20,494 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-23 16:13:20,594 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] Try to log in user: admin
+2022-08-23 16:13:20,605 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] user: admin was entered
+2022-08-23 16:13:21,888 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-23 16:13:53,752 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-23 16:19:56,220 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-23 16:19:56,225 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-23 16:19:56,393 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-23 16:19:56,393 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-23 16:20:00,043 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-23 16:20:00,063 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-23 16:20:00,434 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@22a9170c
+2022-08-23 16:20:05,454 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Session created
+2022-08-23 16:20:05,456 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session locales --> [en, ua]
+2022-08-23 16:20:05,457 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session selected locale --> en
+2022-08-23 16:20:08,291 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-23 16:20:08,361 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] Try to log in user: admin
+2022-08-23 16:20:08,361 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] user: admin was entered
+2022-08-23 16:20:09,465 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-23 16:20:09,475 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] Set view for handled exception: /error/internalError.jsp
+2022-08-23 16:20:17,429 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-8] start processing request
+2022-08-23 16:20:17,429 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-8] Try to log in user: admin
+2022-08-23 16:20:17,429 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-8] user: admin was entered
+2022-08-23 16:20:18,601 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-10] start processing request
+2022-08-23 16:20:18,611 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-10] Set view for handled exception: /error/internalError.jsp
+2022-08-23 16:24:32,698 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-23 16:24:32,703 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-23 16:24:32,893 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-23 16:24:32,894 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-23 16:24:36,006 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-23 16:24:36,036 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-23 16:24:36,378 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@2213c8fe
+2022-08-23 16:24:41,154 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-23 16:24:41,154 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-23 16:24:41,154 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-23 16:24:43,576 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-23 16:24:43,656 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] Try to log in user: admin
+2022-08-23 16:24:43,656 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] user: admin was entered
+2022-08-23 16:24:44,568 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-23 16:25:41,242 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-23 16:26:09,656 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-6] start processing request
+2022-08-23 16:26:22,755 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-7] start processing request
+2022-08-23 16:26:24,057 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-8] start processing request
+2022-08-23 16:26:25,779 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-9] start processing request
+2022-08-23 16:26:39,914 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-10] start processing request
+2022-08-23 16:26:46,904 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-1] start processing request
+2022-08-23 16:27:03,796 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-23 16:29:05,525 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-23 16:29:05,530 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-23 16:29:05,694 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-23 16:29:05,694 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-23 16:29:08,885 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-23 16:29:08,925 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-23 16:29:09,225 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@4d6f83a5
+2022-08-23 16:29:13,380 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Session created
+2022-08-23 16:29:13,382 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session locales --> [en, ua]
+2022-08-23 16:29:13,382 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session selected locale --> en
+2022-08-23 16:29:16,095 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-23 16:29:16,208 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] Try to log in user: admin
+2022-08-23 16:29:16,216 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] user: admin was entered
+2022-08-23 16:29:17,459 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-23 16:29:36,444 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-6] start processing request
+2022-08-23 16:31:09,652 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-8] start processing request
+2022-08-23 16:31:52,082 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-23 16:31:52,086 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-23 16:31:52,270 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-23 16:31:52,270 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-23 16:31:56,287 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-23 16:31:56,317 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-23 16:31:56,631 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@6666410a
+2022-08-23 16:32:01,717 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-23 16:32:01,720 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-23 16:32:01,720 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-23 16:32:04,305 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-23 16:32:04,417 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] Try to log in user: admin
+2022-08-23 16:32:04,427 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] user: admin was entered
+2022-08-23 16:32:05,579 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-23 17:13:54,961 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-4] Session destroyed
+2022-08-23 17:13:54,961 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-4] Session created
+2022-08-23 17:13:54,961 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-4] Set session locales --> [en, ua]
+2022-08-23 17:13:54,962 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-4] Set session selected locale --> en
+2022-08-23 17:15:58,448 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-23 17:15:58,451 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-23 17:15:58,619 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-23 17:15:58,620 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-23 17:16:02,059 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-23 17:16:02,089 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-23 17:16:02,411 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@7a065f73
+2022-08-23 17:16:22,075 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-23 17:16:22,076 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-23 17:16:22,077 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-23 17:16:24,359 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-23 17:16:24,441 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] Try to log in user: admin
+2022-08-23 17:16:24,451 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] user: admin was entered
+2022-08-23 17:16:26,233 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-23 17:16:46,073 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-6] start processing request
+2022-08-23 17:18:51,430 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-23 17:18:51,433 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-23 17:18:51,595 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-23 17:18:51,595 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-23 17:18:54,836 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-23 17:18:54,886 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-23 17:18:55,261 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@2213c8fe
+2022-08-23 17:18:59,279 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-23 17:18:59,280 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-23 17:18:59,281 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-23 17:19:01,758 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-23 17:19:01,850 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] Try to log in user: admin
+2022-08-23 17:19:01,860 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] user: admin was entered
+2022-08-23 17:19:03,614 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-23 17:20:17,346 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-23 17:20:17,351 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-23 17:20:17,549 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-23 17:20:17,549 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-23 17:20:22,023 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-23 17:20:22,083 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-23 17:20:22,450 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@29a01820
+2022-08-23 17:20:28,703 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-23 17:20:28,703 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-23 17:20:28,703 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-23 17:20:31,435 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-23 17:20:31,544 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] Try to log in user: admin
+2022-08-23 17:20:31,555 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] user: admin was entered
+2022-08-23 17:20:32,829 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-23 17:23:22,417 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-23 17:23:22,420 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-23 17:23:22,584 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-23 17:23:22,584 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-23 17:23:26,578 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-23 17:23:26,608 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-23 17:23:26,960 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@16914a63
+2022-08-23 17:23:58,182 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Session created
+2022-08-23 17:23:58,182 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session locales --> [en, ua]
+2022-08-23 17:23:58,182 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session selected locale --> en
+2022-08-23 17:24:01,516 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-23 17:24:01,586 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] Try to log in user: admin
+2022-08-23 17:24:01,596 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] user: admin was entered
+2022-08-23 17:24:02,488 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-23 17:25:27,916 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-23 17:25:27,919 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-23 17:25:28,082 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-23 17:25:28,082 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-23 17:25:31,882 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-23 17:25:31,912 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-23 17:25:32,294 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@69160a0c
+2022-08-23 17:25:49,497 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-23 17:25:49,498 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-23 17:25:49,498 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-23 17:25:53,136 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-23 17:25:53,218 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] Try to log in user: admin
+2022-08-23 17:25:53,228 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] user: admin was entered
+2022-08-23 17:25:54,170 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-23 17:25:54,190 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] Set view for handled exception: /error/internalError.jsp
+2022-08-23 17:26:52,663 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-23 17:26:52,669 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-23 17:26:52,902 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-23 17:26:52,902 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-23 17:26:55,951 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-23 17:26:55,981 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-23 17:26:56,336 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@4805d11b
+2022-08-23 17:27:03,381 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Session created
+2022-08-23 17:27:03,384 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session locales --> [en, ua]
+2022-08-23 17:27:03,384 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session selected locale --> en
+2022-08-23 17:27:05,749 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-23 17:27:05,892 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] Try to log in user: admin
+2022-08-23 17:27:05,900 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] user: admin was entered
+2022-08-23 17:27:06,901 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-23 17:27:06,911 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] Set view for handled exception: /error/internalError.jsp
+2022-08-23 17:27:34,514 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-23 17:27:34,519 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-23 17:27:34,949 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-23 17:27:34,949 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-23 17:27:38,286 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-23 17:27:38,326 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-23 17:27:38,688 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@16914a63
+2022-08-23 17:27:43,417 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-23 17:27:43,419 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-23 17:27:43,421 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-23 17:27:46,141 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-23 17:27:46,241 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] Try to log in user: admin
+2022-08-23 17:27:46,251 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] user: admin was entered
+2022-08-23 17:27:47,533 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-23 17:36:51,349 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-23 17:36:51,352 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-23 17:36:51,541 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-23 17:36:51,542 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-23 17:36:55,544 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-23 17:36:55,594 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-23 17:36:55,922 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@1e0771af
+2022-08-23 17:37:03,120 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-23 17:37:03,120 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-23 17:37:03,120 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-23 17:37:05,422 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-23 17:37:05,502 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] Try to log in user: admin
+2022-08-23 17:37:05,512 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] user: admin was entered
+2022-08-23 17:37:06,664 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-23 17:43:31,759 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-23 17:43:31,762 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-23 17:43:31,928 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-23 17:43:31,928 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-23 17:43:35,059 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-23 17:43:35,079 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-23 17:43:35,414 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@2213c8fe
+2022-08-23 17:43:40,305 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-23 17:43:40,307 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-23 17:43:40,307 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-23 17:43:42,866 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-23 17:43:42,931 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] Try to log in user: admin
+2022-08-23 17:43:42,941 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] user: admin was entered
+2022-08-23 17:43:43,753 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-23 17:43:43,763 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] Set view for handled exception: /error/internalError.jsp
+2022-08-23 17:45:55,416 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-23 17:45:55,425 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-23 17:45:55,627 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-23 17:45:55,627 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-23 17:45:58,849 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-23 17:45:58,879 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-23 17:45:59,250 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@33bc7565
+2022-08-23 17:46:15,193 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-23 17:46:15,193 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-23 17:46:15,193 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-23 17:46:17,445 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-23 17:46:17,525 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] Try to log in user: admin
+2022-08-23 17:46:17,535 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] user: admin was entered
+2022-08-23 17:46:18,467 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-23 17:47:36,168 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-23 17:47:36,171 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-23 17:47:36,337 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-23 17:47:36,338 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-23 17:47:39,579 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-23 17:47:39,619 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-23 17:47:39,955 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@33c28f0d
+2022-08-23 17:47:44,961 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Session created
+2022-08-23 17:47:44,961 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session locales --> [en, ua]
+2022-08-23 17:47:44,961 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session selected locale --> en
+2022-08-23 17:47:47,447 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-23 17:47:47,558 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] Try to log in user: admin
+2022-08-23 17:47:47,559 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] user: admin was entered
+2022-08-23 17:47:48,701 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-23 17:49:24,671 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-23 17:49:24,677 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-23 17:49:24,832 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-23 17:49:24,832 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-23 17:49:28,414 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-23 17:49:28,444 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-23 17:49:28,795 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@4cf2b47a
+2022-08-23 17:49:33,051 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-23 17:49:33,061 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-23 17:49:33,061 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-23 17:49:35,413 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-23 17:49:35,483 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] Try to log in user: admin
+2022-08-23 17:49:35,483 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] user: admin was entered
+2022-08-23 17:49:36,565 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-23 17:52:38,986 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-23 17:52:38,993 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-23 17:52:39,207 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-23 17:52:39,208 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-23 17:52:42,728 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-23 17:52:42,748 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-23 17:52:43,260 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@f67053
+2022-08-23 17:52:47,068 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-23 17:52:47,069 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-23 17:52:47,070 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-23 17:52:49,436 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-23 17:52:49,516 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] Try to log in user: admin
+2022-08-23 17:52:49,516 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] user: admin was entered
+2022-08-23 17:52:50,358 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-23 17:54:12,314 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-23 17:54:12,318 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-23 17:54:12,486 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-23 17:54:12,487 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-23 17:54:16,070 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-23 17:54:16,110 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-23 17:54:16,556 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@4a9463b2
+2022-08-23 17:54:28,155 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-23 17:54:28,157 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-23 17:54:28,158 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-23 17:54:30,657 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-23 17:54:30,747 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] Try to log in user: admin
+2022-08-23 17:54:30,757 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] user: admin was entered
+2022-08-23 17:54:31,751 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-23 17:56:17,154 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-6] Session created
+2022-08-23 17:56:17,154 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-6] Set session locales --> [en, ua]
+2022-08-23 17:56:17,154 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-6] Set session selected locale --> en
+2022-08-23 17:56:29,210 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-8] start processing request
+2022-08-23 17:56:29,220 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-8] Try to log in user: vasya
+2022-08-23 17:56:29,220 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-8] user: vasya was entered
+2022-08-23 17:56:30,804 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-10] start processing request
+2022-08-23 17:56:34,646 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-1] start processing request
+2022-08-23 17:56:34,896 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-23 17:56:38,598 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-23 17:56:38,728 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-23 17:56:43,434 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-23 18:06:38,018 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-23 18:06:38,024 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-23 18:06:38,188 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-23 18:06:38,189 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-23 18:06:42,321 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-23 18:06:42,351 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-23 18:06:42,683 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@3f6094da
+2022-08-23 18:06:48,990 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Session created
+2022-08-23 18:06:48,991 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session locales --> [en, ua]
+2022-08-23 18:06:48,992 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session selected locale --> en
+2022-08-23 18:06:51,317 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-23 18:06:51,407 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] Try to log in user: admin
+2022-08-23 18:06:51,417 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] user: admin was entered
+2022-08-23 18:06:52,489 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-23 18:07:29,900 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-6] Session created
+2022-08-23 18:07:29,901 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-6] Set session locales --> [en, ua]
+2022-08-23 18:07:29,902 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-6] Set session selected locale --> en
+2022-08-23 18:07:38,131 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-7] start processing request
+2022-08-23 18:07:38,131 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-7] Try to log in user: vasya
+2022-08-23 18:07:38,131 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-7] user: vasya was entered
+2022-08-23 18:07:39,903 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-9] start processing request
+2022-08-23 18:07:43,409 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-1] start processing request
+2022-08-23 18:07:48,217 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-23 18:07:52,089 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-23 18:07:52,459 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-23 18:07:58,631 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-7] start processing request
+2022-08-23 18:09:24,615 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-10] start processing request
+2022-08-23 18:11:49,536 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-23 18:11:49,540 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-23 18:11:49,708 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-23 18:11:49,709 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-23 18:11:53,394 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-23 18:11:53,444 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-23 18:11:53,750 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@16914a63
+2022-08-23 18:11:58,733 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-23 18:11:58,733 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-23 18:11:58,733 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-23 18:12:00,899 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-23 18:12:00,979 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] Try to log in user: admin
+2022-08-23 18:12:00,999 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] user: admin was entered
+2022-08-23 18:12:02,041 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-23 18:12:17,179 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-6] start processing request
+2022-08-23 18:12:28,601 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-7] start processing request
+2022-08-23 18:12:28,721 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-8] start processing request
+2022-08-23 18:12:33,485 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-10] start processing request
+2022-08-23 18:12:40,439 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-23 18:12:42,103 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-23 18:12:47,219 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-23 18:12:47,401 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-6] start processing request
+2022-08-23 18:12:52,861 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-8] start processing request
+2022-08-23 18:13:46,542 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-9] start processing request
+2022-08-23 18:14:38,497 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-10] start processing request
+2022-08-23 18:14:40,359 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-1] start processing request
+2022-08-23 18:14:52,453 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-23 18:15:19,309 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-23 18:15:53,475 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-23 18:24:51,310 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-23 18:24:51,310 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-23 18:24:51,474 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-23 18:24:51,475 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-23 18:24:54,876 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-23 18:24:54,916 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-23 18:24:55,233 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@67b68dc3
+2022-08-23 18:25:03,432 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-23 18:25:03,432 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-23 18:25:03,432 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-23 18:25:06,556 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-23 18:25:06,626 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] Try to log in user: admin
+2022-08-23 18:25:06,636 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] user: admin was entered
+2022-08-23 18:25:07,820 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-23 18:28:01,888 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-23 18:28:01,891 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-23 18:28:02,057 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-23 18:28:02,057 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-23 18:28:05,551 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-23 18:28:05,581 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-23 18:28:05,945 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@4a9463b2
+2022-08-23 18:28:12,149 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-23 18:28:12,151 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-23 18:28:12,153 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-23 18:28:15,391 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-23 18:28:15,481 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] Try to log in user: admin
+2022-08-23 18:28:15,491 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] user: admin was entered
+2022-08-23 18:28:16,573 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-23 18:29:59,318 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-23 18:29:59,324 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-23 18:29:59,488 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-23 18:29:59,488 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-23 18:30:03,190 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-23 18:30:03,230 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-23 18:30:03,552 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@1a5d08c5
+2022-08-23 18:30:09,045 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-23 18:30:09,047 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-23 18:30:09,048 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-23 18:30:11,196 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-23 18:30:11,258 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] Try to log in user: admin
+2022-08-23 18:30:11,268 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] user: admin was entered
+2022-08-23 18:30:12,500 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-23 18:31:36,362 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-23 18:31:36,367 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-23 18:31:36,545 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-23 18:31:36,545 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-23 18:31:39,769 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-23 18:31:39,799 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-23 18:31:40,141 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@5922338f
+2022-08-23 18:31:45,595 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Session created
+2022-08-23 18:31:45,596 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session locales --> [en, ua]
+2022-08-23 18:31:45,598 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session selected locale --> en
+2022-08-23 18:31:47,543 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-23 18:31:47,623 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] Try to log in user: admin
+2022-08-23 18:31:47,633 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] user: admin was entered
+2022-08-23 18:31:48,525 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-23 18:32:52,486 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-23 18:32:52,489 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-23 18:32:52,681 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-23 18:32:52,681 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-23 18:32:56,334 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-23 18:32:56,364 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-23 18:32:56,739 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@f67053
+2022-08-23 18:33:01,265 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Session created
+2022-08-23 18:33:01,267 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session locales --> [en, ua]
+2022-08-23 18:33:01,268 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session selected locale --> en
+2022-08-23 18:33:03,748 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-23 18:33:03,828 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] Try to log in user: admin
+2022-08-23 18:33:03,838 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] user: admin was entered
+2022-08-23 18:33:04,980 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-23 18:37:02,403 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-23 18:37:02,406 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-23 18:37:02,606 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-23 18:37:02,606 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-23 18:37:05,974 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-23 18:37:06,014 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-23 18:37:06,384 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@4a9463b2
+2022-08-23 18:37:11,032 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Session created
+2022-08-23 18:37:11,033 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session locales --> [en, ua]
+2022-08-23 18:37:11,035 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session selected locale --> en
+2022-08-23 18:37:13,422 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-23 18:37:13,512 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] Try to log in user: admin
+2022-08-23 18:37:13,522 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] user: admin was entered
+2022-08-23 18:37:14,644 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-23 18:38:04,628 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-23 18:38:04,631 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-23 18:38:04,791 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-23 18:38:04,792 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-23 18:38:08,062 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-23 18:38:08,092 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-23 18:38:08,424 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@4cf2b47a
+2022-08-23 18:38:13,662 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-23 18:38:13,662 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-23 18:38:13,662 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-23 18:38:15,684 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-23 18:38:15,784 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] Try to log in user: admin
+2022-08-23 18:38:15,802 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] user: admin was entered
+2022-08-23 18:38:16,716 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-23 18:39:50,856 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-23 18:39:50,862 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-23 18:39:51,046 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-23 18:39:51,046 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-23 18:39:54,144 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-23 18:39:54,164 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-23 18:39:54,514 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@131c4ffe
+2022-08-23 18:39:59,788 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-23 18:39:59,788 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-23 18:39:59,788 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-23 18:40:01,992 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-23 18:40:02,082 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] Try to log in user: admin
+2022-08-23 18:40:02,082 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] user: admin was entered
+2022-08-23 18:40:02,844 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-23 18:44:39,234 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-23 18:44:39,237 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-23 18:44:39,403 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-23 18:44:39,403 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-23 18:44:43,016 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-23 18:44:43,036 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-23 18:44:43,364 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@16914a63
+2022-08-23 18:44:50,879 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Session created
+2022-08-23 18:44:50,881 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session locales --> [en, ua]
+2022-08-23 18:44:50,881 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session selected locale --> en
+2022-08-23 18:44:53,388 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-23 18:44:53,468 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] Try to log in user: admin
+2022-08-23 18:44:53,478 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] user: admin was entered
+2022-08-23 18:44:54,282 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-23 18:45:43,916 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-6] start processing request
+2022-08-23 18:54:04,204 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-8] start processing request
+2022-08-23 18:56:07,089 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-23 18:56:07,092 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-23 18:56:07,263 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-23 18:56:07,264 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-23 18:56:10,613 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-23 18:56:10,645 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-23 18:56:10,992 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@7f05d2bf
+2022-08-23 18:56:16,994 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Session created
+2022-08-23 18:56:16,998 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session locales --> [en, ua]
+2022-08-23 18:56:16,999 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-2] Set session selected locale --> en
+2022-08-23 18:56:19,239 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-3] start processing request
+2022-08-23 18:56:19,318 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] Try to log in user: admin
+2022-08-23 18:56:19,329 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-3] user: admin was entered
+2022-08-23 18:56:20,905 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] start processing request
+2022-08-23 18:56:20,932 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-5] Set view for handled exception: /error/internalError.jsp
+2022-08-23 18:56:27,590 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-8] start processing request
+2022-08-23 18:56:27,591 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-8] Try to log in user: admin
+2022-08-23 18:56:27,592 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-8] user: admin was entered
+2022-08-23 18:56:29,355 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-10] start processing request
+2022-08-23 18:56:29,358 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-10] Set view for handled exception: /error/internalError.jsp
+2022-08-23 18:58:19,906 INFO p.e.c.p.i.c.ConfigLoader [main] start load config
+2022-08-23 18:58:19,910 INFO p.e.c.p.i.c.ConfigLoader [main] configs was loaded successfully
+2022-08-23 18:58:20,077 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userName
+2022-08-23 18:58:20,077 INFO p.e.c.p.i.c.d.ConfigureDataSource [main] Set userPassword
+2022-08-23 18:58:24,044 INFO p.e.c.p.i.c.d.ConfigureLiquibase [main] Update database
+2022-08-23 18:58:24,082 INFO p.e.c.p.i.c.s.ServletInitializer [main] front servlet start up
+2022-08-23 18:58:24,414 INFO p.e.c.p.Application [main] start application --> org.apache.catalina.startup.Tomcat@2728e166
+2022-08-23 18:58:37,255 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Session created
+2022-08-23 18:58:37,257 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session locales --> [en, ua]
+2022-08-23 18:58:37,258 INFO p.e.c.p.i.w.LocaleSessionListener [http-nio-8080-exec-1] Set session selected locale --> en
+2022-08-23 18:58:39,655 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-2] start processing request
+2022-08-23 18:58:39,732 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] Try to log in user: admin
+2022-08-23 18:58:39,739 INFO p.e.c.p.l.s.UserService [http-nio-8080-exec-2] user: admin was entered
+2022-08-23 18:58:40,817 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-4] start processing request
+2022-08-23 19:00:41,564 INFO p.e.c.p.i.w.FrontServlet [http-nio-8080-exec-6] start processing request
+2022-08-23 19:38:43,610 INFO p.e.c.p.l.s.UserService [main] Try to log in user: login
+2022-08-23 19:38:43,616 INFO p.e.c.p.l.s.UserService [main] Try to log in user: login
+2022-08-23 19:38:43,617 INFO p.e.c.p.l.s.UserService [main] user: login was entered
+2022-08-23 19:38:43,618 INFO p.e.c.p.l.s.UserService [main] Try to log in user: login
+2022-08-23 19:38:43,618 INFO p.e.c.p.l.s.UserService [main] user: login was entered
+2022-08-23 19:38:43,619 INFO p.e.c.p.l.s.UserService [main] Try to log in user: login
+2022-08-23 19:38:44,500 ERROR p.e.c.p.l.d.ReaderDAO [main] null
+2022-08-23 19:38:45,583 ERROR p.e.c.p.l.d.PrepaymentDAO [main] null
+2022-08-23 19:38:45,600 ERROR p.e.c.p.l.d.PrepaymentDAO [main] reader have not enough money on the account
+2022-08-23 19:38:45,736 ERROR p.e.c.p.l.d.PrepaymentDAO [main] null
+2022-08-23 19:38:45,742 ERROR p.e.c.p.l.d.PrepaymentDAO [main] reader have not enough money on the account

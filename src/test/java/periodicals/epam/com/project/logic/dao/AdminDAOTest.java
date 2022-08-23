@@ -13,9 +13,7 @@ import periodicals.epam.com.project.logic.entity.dto.PeriodicalDTO;
 
 import javax.sql.DataSource;
 import java.sql.*;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
@@ -43,8 +41,10 @@ public class AdminDAOTest {
     private static final String RESTORE_PERIODICAL_FOR_READERS = "UPDATE periodical SET isDeleted = false WHERE id = ?";
     private static final String GET_PERIODICAL_BY_ID = "SELECT * FROM periodical WHERE id =?";
     private static final String EDIT_PERIODICAL_BY_ID = "UPDATE periodical SET name =?, topic =?, cost =?, description =? WHERE id =?";
-    private static final String GET_ALL_READERS = "SELECT user.login, account.amount, reader.lock, reader.account_id, reader.id FROM "+
-            "user JOIN reader ON user.id = reader.id JOIN account ON reader.account_id = account.id";
+    private static final String GET_ALL_READERS = "select user.id, login, account.amount, reader.lock, reader.account_id, "+
+            "reader.id, periodical.id, periodical.name, periodical.topic, periodical.cost, periodical.description, periodical.isDeleted "+
+            "from user JOIN reader ON user.id = reader.id JOIN account ON reader.account_id = account.id left join periodicals "+
+            "on user.id=periodicals.reader_id left join periodical on periodicals.periodical_id = periodical.id where not user.role = 'ADMIN' order by user.id";
     private static final String LOCK_READER = "UPDATE reader SET reader.lock = true WHERE id = ?";
     private static final String UNLOCK_READER = "UPDATE reader SET reader.lock = false WHERE id = ?";
     private static final Long PERIODICAL_ID = 5L;
@@ -189,9 +189,11 @@ public class AdminDAOTest {
         reader2.setLogin("login2");
         reader2.setAccount(account2);
         reader2.setLock(false);
-        List<Reader> expectedList = new ArrayList<>();
-        expectedList.add(reader1);
-        expectedList.add(reader2);
+        Periodical periodical1 = new Periodical(1L,"name1","topic1", 50d, "description1", false);
+        Periodical periodical2 = new Periodical(2L,"name2","topic2", 50d, "description2", false);
+        Map<Reader, Periodical> expectedMap = new LinkedHashMap<>();
+        expectedMap.put(reader1,periodical1);
+        expectedMap.put(reader2,periodical2);
 
         when(connection.createStatement()).thenReturn(statement);
         when(statement.executeQuery(GET_ALL_READERS)).thenReturn(resultSet);
@@ -201,10 +203,15 @@ public class AdminDAOTest {
         when(resultSet.getBoolean("lock")).thenReturn(false).thenReturn(false);
         when(resultSet.getLong("account_id")).thenReturn(1L).thenReturn(2L);
         when(resultSet.getLong("reader.id")).thenReturn(3L).thenReturn(4L);
+        when(resultSet.getLong("periodical.id")).thenReturn(1L).thenReturn(2L);
+        when(resultSet.getString("name")).thenReturn("name1").thenReturn("name2");
+        when(resultSet.getString("topic")).thenReturn("topic1").thenReturn("topic2");
+        when(resultSet.getDouble("cost")).thenReturn(50d).thenReturn(50d);
+        when(resultSet.getString("description")).thenReturn("description1").thenReturn("description2");
+        when(resultSet.getBoolean("isDeleted")).thenReturn(false).thenReturn(false);
 
-        List<Reader> resultList = dao.getAllReaders();
-        assertEquals(expectedList, resultList);
-
+        Map<Reader, Periodical> resultMap = dao.getAllReaders();
+        assertEquals(expectedMap, resultMap);
     }
 
     @Test

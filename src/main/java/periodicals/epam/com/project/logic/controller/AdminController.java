@@ -9,7 +9,7 @@ import periodicals.epam.com.project.logic.entity.Reader;
 import periodicals.epam.com.project.logic.entity.dto.PeriodicalDTO;
 import periodicals.epam.com.project.logic.services.AdminService;
 
-import java.util.List;
+import java.util.*;
 
 @AllArgsConstructor
 public class AdminController {
@@ -74,9 +74,13 @@ public class AdminController {
     }
 
     public ModelAndView getAllReaders(HttpServletRequest request) {
-        List<Reader> listOfReaders = adminService.getAllReaders();
+        Map<Reader, Periodical> mapOfReaders = adminService.getAllReaders();
+        List<Reader> readers = new LinkedList<>(mapOfReaders.keySet());
+        List<Periodical> subscriptions = new LinkedList<>(mapOfReaders.values());
+
         ModelAndView modelAndView = new ModelAndView();
-        modelAndView.addAttribute("readers", listOfReaders);
+        modelAndView.addAttribute("readers", readers);
+        modelAndView.addAttribute("subscriptions", subscriptions);
         modelAndView.setView("/admin/manageReaders.jsp");
         return modelAndView;
     }

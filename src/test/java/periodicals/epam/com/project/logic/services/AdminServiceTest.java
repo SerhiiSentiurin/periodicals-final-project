@@ -11,9 +11,7 @@ import periodicals.epam.com.project.logic.entity.Periodical;
 import periodicals.epam.com.project.logic.entity.Reader;
 import periodicals.epam.com.project.logic.entity.dto.PeriodicalDTO;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.when;
@@ -105,22 +103,24 @@ public class AdminServiceTest {
     public void getAllReadersTest() {
         Reader reader1 = Mockito.mock(Reader.class);
         Reader reader2 = Mockito.mock(Reader.class);
-        List<Reader> expectedList = new ArrayList<>();
-        expectedList.add(reader1);
-        expectedList.add(reader2);
+        Periodical periodical1 = Mockito.mock(Periodical.class);
+        Periodical periodical2 = Mockito.mock(Periodical.class);
+        Map<Reader, Periodical> expectedMap = new HashMap<>();
+        expectedMap.put(reader1,periodical1);
+        expectedMap.put(reader2,periodical2);
 
-        when(dao.getAllReaders()).thenReturn(expectedList);
+        when(dao.getAllReaders()).thenReturn(expectedMap);
 
-        List<Reader> resultList = adminService.getAllReaders();
-        assertEquals(expectedList, resultList);
+        Map<Reader,Periodical> resultMap = adminService.getAllReaders();
+        assertEquals(expectedMap,resultMap);
     }
 
     @Test
     public void getAllReadersEmptyTest() {
-        List<Reader> expectedList = Collections.emptyList();
-        when(dao.getAllReaders()).thenReturn(expectedList);
-        List<Reader> resultList = adminService.getAllReaders();
-        assertEquals(expectedList, resultList);
+        Map<Reader, Periodical> expectedMap = Collections.emptyMap();
+        when(dao.getAllReaders()).thenReturn(expectedMap);
+        Map<Reader, Periodical> resultMap = adminService.getAllReaders();
+        assertEquals(expectedMap,resultMap);
     }
 
     @Test

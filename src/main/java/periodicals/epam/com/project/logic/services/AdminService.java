@@ -7,6 +7,7 @@ import periodicals.epam.com.project.logic.entity.Reader;
 import periodicals.epam.com.project.logic.entity.dto.PeriodicalDTO;
 
 import java.util.List;
+import java.util.Map;
 
 @RequiredArgsConstructor
 public class AdminService {
@@ -40,7 +41,7 @@ public class AdminService {
         return adminDAO.editPeriodicalById(dto);
     }
 
-    public List<Reader> getAllReaders() {
+    public Map<Reader, Periodical> getAllReaders() {
         return adminDAO.getAllReaders();
     }
 
